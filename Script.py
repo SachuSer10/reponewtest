@@ -4,11 +4,11 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>🥱 My Name : {}
-🕵‍♂ Developer : <a href='https://t.me/NAZZY_FF'>★ 𝘕𝘈𝘈𝘊𝘏𝘜 ★</a>
+🕵‍♂ Developer : <a href=https://t.me/MichaelAnjoottiTG><b>🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆</a>
 📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-🔋 Bot Group : @nazzymovies </b>"""
+🔋 Bot Group : @MovieFlixRequestsGroup </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 <b>𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖶𝖺𝗌 𝖬𝖺𝗄𝖾𝖽 𝖳𝖺𝗄𝗂𝗇𝗀 𝖲𝗈𝗆𝖺𝗇𝗒 𝖱𝖾𝗉𝗈𝗌 𝖮𝖿 𝖮𝗍𝗁𝖾𝗋 𝖪𝗂𝗇𝖽 𝖡𝗈𝗍𝗌
 𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤 ~ 𝖭𝖮𝖳 𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 𝖱𝖨𝖦𝖧𝖳 𝖭𝖮𝖶
