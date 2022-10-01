@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔯 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/nazzymovies2')
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/movieflix_tg')
             ],
             [
-                InlineKeyboardButton('ℹ🛐 ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,13 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('😍 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💮 ᴜᴘᴅᴀᴛᴇ 💮', url='https://t.me/nazzymovies2'),
-            InlineKeyboardButton('💮 ᴍᴏᴠɪᴇs 💮', url='https://t.me/nazzymovies')
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇ', url='https://t.me/movieflix_tg'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs ', url='https://t.me/movieflix_tg')
             ],[      
-            InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+            InlineKeyboardButton('Hᴇʟᴘ ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
