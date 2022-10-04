@@ -89,7 +89,7 @@ async def next_page(bot, query):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'📁 ғɪʟᴇs: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'📟 ғɪʟᴇs: {len(files)}', 'dupe'),
             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'📮 ɪɴғᴏ', 'info')
         ]
@@ -428,8 +428,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('😍 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇ', url='https://t.me/movieflix_tg'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/movieflix_tg')
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movieflix_tg')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
@@ -635,11 +635,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
     elif query.data == 'tips':
-        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021\n\tⒸ ᴍᴏᴠɪᴇꜰʟɪx", True)
+        await query.answer("🔰 Ask with correct spelling\n🔰 Don't ask movies those are not released in OTT Some Of Theatre Quality Available🤧\n🔰 For better results:\n\t\t\t\t\t\t- MovieName year\n\t\t\t\t\t\t- Eg: Kuruthi 2021\n\tⒸ ᴍᴏᴠɪᴇꜰʟɪx_ᴛɢ", True)
     elif query.data == 'reqst1':
         await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want And Start The Bot ⬇️", True)
     elif query.data == 'info':
-        await query.answer("⚠︎ Information ⚠︎\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᴍᴏᴠɪᴇꜰʟɪx", True)
+        await query.answer("⚠︎ Information ⚠︎\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ᴍᴏᴠɪᴇʟɪx_ᴛɢ", True)
     try: await query.answer('Piracy Is Crime')
     except: pass
 
@@ -696,7 +696,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'📁 ғɪʟᴇs: {total_results}', 'dupe'),
+            InlineKeyboardButton(f'📟 ғɪʟᴇs: {total_results}', 'dupe'),
             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tips'),
             InlineKeyboardButton(f'📮 ɪɴғᴏ', 'info')
         ]
