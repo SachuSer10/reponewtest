@@ -6,7 +6,7 @@ class script(object):
     ABOUT_TXT = """<b>🥱 My Name : {}
 🕵‍♂ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/MichaelAnjoottiTG><b>🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆</a>
 📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 3
 🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
 🔋 Bot Group : @MovieFlixRequestsGroup </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
