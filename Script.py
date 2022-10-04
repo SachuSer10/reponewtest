@@ -91,7 +91,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = <b>"""ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ ➪: <code>{}</code></b>
+    STATUS_TXT =<b> """ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ ➪: <code>{}</code> </b>
 <b>ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ ➪: <code>{}</code>
 ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ ➪: <code>{}</code>
 ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ ➪: <code>{}</code> 𝙼𝚒𝙱
