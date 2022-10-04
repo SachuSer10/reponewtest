@@ -16,9 +16,9 @@ class script(object):
 𝖠𝖴𝖳𝖮 𝖥𝖨𝖫𝖳𝖤𝖱 : <a href=https://github.com/EvamariaTG/EvaMaria>𝖤𝗏𝖺 𝖬𝖺𝗋𝗂𝖺</a>
 𝖲𝖮𝖭𝖦 :  <a href=https://github.com/AsmSafone/RadioPlayerV2>𝖠𝗌𝗆𝖲𝖺𝖿𝗈𝗇𝖾</a>
 𝖥𝖨𝖫𝖳𝖤𝖱 : <a href=https://github.com/TroJanzHEX/Unlimited-Filter-Bot>𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍</a></b>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = """<b>Help: Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Bee Pathu will respond whenever a keyword is found the message
+<b>Filter is the feature were users can set automated replies for a particular keyword and Bee Pathu will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 <b>1. BeePathu should have admin privillage.
@@ -57,30 +57,30 @@ class script(object):
 - it helps to avoid spamming in groups.</b>
 
 <b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+<b>1. Only admins can add a connection.
+2. Send <code>/connect</code> for connecting me to ur PM</b>
 
 <b>Commands and Usage:</b>
-• /connect  - <code>connect a particular chat to your PM</code>
+<b>• /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
+• /connections - <code>list all your connections</code></b>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+<b>these are the extra features of Bee Pathu</b>
 
 <b>Commands and Usage:</b>
-• /id - <code>get id of a specified user.</code>
+<b>• /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• /search  - <code>get the film information from various sources.</code></b>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+<b>This module only works for my admins</b>
 
 <b>Commands and Usage:</b>
-• /logs - <code>to get the rescent errors</code>
+<b>• /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
 • /delete - <code>to delete a specific file from db.</code>
 • /users - <code>to get list of my users and ids.</code>
@@ -90,7 +90,7 @@ This module only works for my admins
 • /ban  - <code>to ban a user.</code>
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
-• /broadcast - <code>to broadcast a message to all users</code>"""
+• /broadcast - <code>to broadcast a message to all users</code></b>"""
     STATUS_TXT = """<b>ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ ➪: <code>{}</code></b>
 <b>ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ ➪: <code>{}</code>
 ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ ➪: <code>{}</code>
