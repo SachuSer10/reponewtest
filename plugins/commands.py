@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('😍 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴏᴠɪᴇs ', url='https://t.me/movieflix_tg')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movieflix_tg')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ ', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('😍 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 😍', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Mᴏᴠɪᴇs', url='https://t.me/movieflix_tg')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/movieflix_tg')
             ],[      
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
