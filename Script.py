@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>🥱 ᴍy ɴᴀᴍᴇ : {}
-<b>🕵‍♂ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/MichaelAnjoottiTG><b>🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆</a>
+<b><b>🕵‍♂ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href=https://t.me/MichaelAnjoottiTG><b>🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆</a></b>
 📚 ʟɪʙʀᴀʀy : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
 🖥 ʟᴀɴɢᴜᴀɢᴇ : 𝙿𝚈𝚃𝙷𝙾𝙽 3
 🎪 ᴅᴀᴛᴀʙᴀꜱᴇ : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
