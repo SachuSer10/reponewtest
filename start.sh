@@ -4,7 +4,7 @@ then
   git clone https://github.com/SachuSer10/mfnewrepo /mfnewrepo
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /mfnewrep
+  git clone $UPSTREAM_REPO /mfnewrepo 
 fi
 cd /mfnewrepo 
 pip3 install -U -r requirements.txt
