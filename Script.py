@@ -95,7 +95,7 @@ This module only works for my admins
 <b>ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ ➪: <code>{}</code>
 ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ ➪: <code>{}</code>
 ᴜꜱᴇᴅ ꜱᴛᴏʀᴀɢᴇ ➪: <code>{}</code> 𝙼𝚒𝙱
-ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ ➪ <code>{}</code> 𝙼𝚒𝙱"""</b>
+ꜰʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ ➪ <code>{}</code> 𝙼𝚒𝙱</b>"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
