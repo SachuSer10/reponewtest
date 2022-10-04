@@ -8,5 +8,5 @@ else
 fi
 cd /reponewtest 
 pip3 install -U -r requirements.txt
-echo "Starting Bot...."
+echo "Starting Bee Pathu...."
 python3 bot.py
