@@ -764,7 +764,7 @@ async def auto_filter(client, msg, spoll=False):
             fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
         fmsg = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-    await asyncio.sleep(600)
+    await asyncio.sleep(86400)
     await fmsg.delete()
     
     if spoll:
@@ -874,7 +874,7 @@ async def manual_filters(client, message, text=False):
                             reply_markup=InlineKeyboardMarkup(button),
                             reply_to_message_id=reply_id
                         )
-                    await asyncio.sleep(600)
+                    await asyncio.sleep(86400)
                     await fmsg.delete()
                     
                     
